@@ -4,7 +4,7 @@
   <subtitle><![CDATA[没有勇气与智慧相伴的善良，无异于懦弱！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-01-17T09:43:44.281Z</updated>
+  <updated>2016-01-18T02:33:30.046Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,10 +19,14 @@
     <link href="http://yoursite.com/2016/01/14/CSS2%20%E9%80%9F%E6%9F%A5%E8%A1%A8%20-%20BFC%E4%B8%8E%E8%BE%B9%E8%B7%9D%E9%87%8D%E5%8F%A0%E8%AF%A6%E8%A7%A3/"/>
     <id>http://yoursite.com/2016/01/14/CSS2 速查表 - BFC与边距重叠详解/</id>
     <published>2016-01-14T10:22:03.000Z</published>
-    <updated>2016-01-17T09:43:44.281Z</updated>
+    <updated>2016-01-18T02:33:30.046Z</updated>
     <content type="html"><![CDATA[<h1 id="u4EC0_u4E48_u662FBFC_uFF1F"><a href="#u4EC0_u4E48_u662FBFC_uFF1F" class="headerlink" title="什么是BFC？"></a>什么是BFC？</h1><p>在解释 <code>BFC</code> 是什么之前，需要先介绍 <code>Box</code>、<code>Formatting Context</code>的概念。</p>
 <ul>
 <li><h3 id="Box_uFF1A_CSS__u5E03_u5C40_u7684_u57FA_u672C_u5355_u4F4D"><a href="#Box_uFF1A_CSS__u5E03_u5C40_u7684_u57FA_u672C_u5355_u4F4D" class="headerlink" title="Box： CSS 布局的基本单位"></a>Box： <code>CSS</code> 布局的基本单位</h3><p><code>Box</code>是<code>CSS</code>布局的对象和基本单位， 直观点来说，就是一个页面是由很多个<code>Box</code>组成的。元素的类型和<code>display</code>属性，决定了这个<code>Box</code>的类型。 不同类型的 <code>Box</code>会参与不同的<code>Formatting Context</code>（一个决定如何渲染文档的容器），因此<code>Box</code>内的元素会以不同的方式渲染。让我们看看有哪些盒子：</p>
+<a id="more"></a>
+<h1 id="u4EC0_u4E48_u662FBFC_uFF1F-1"><a href="#u4EC0_u4E48_u662FBFC_uFF1F-1" class="headerlink" title="什么是BFC？"></a>什么是BFC？</h1><p>在解释 <code>BFC</code> 是什么之前，需要先介绍 <code>Box</code>、<code>Formatting Context</code>的概念。</p>
+</li>
+<li><h3 id="Box_uFF1A_CSS__u5E03_u5C40_u7684_u57FA_u672C_u5355_u4F4D-1"><a href="#Box_uFF1A_CSS__u5E03_u5C40_u7684_u57FA_u672C_u5355_u4F4D-1" class="headerlink" title="Box： CSS 布局的基本单位"></a>Box： <code>CSS</code> 布局的基本单位</h3><p><code>Box</code>是<code>CSS</code>布局的对象和基本单位， 直观点来说，就是一个页面是由很多个<code>Box</code>组成的。元素的类型和<code>display</code>属性，决定了这个<code>Box</code>的类型。 不同类型的 <code>Box</code>会参与不同的<code>Formatting Context</code>（一个决定如何渲染文档的容器），因此<code>Box</code>内的元素会以不同的方式渲染。让我们看看有哪些盒子：</p>
 <blockquote>
 <p><strong>block-level box</strong>：<code>display</code> 属性为 <code>block, list-item, table</code> 的元素，会生成 <code>block-level box</code>。并且参与 <code>block fomatting context</code>；</p>
 <p><strong>inline-level box</strong>：<code>display</code> 属性为 <code>inline, inline-block, inline-table</code> 的元素，会生成 <code>inline-level box</code>。并且参与 <code>inline formatting context</code>；</p>
@@ -113,12 +117,15 @@
 </blockquote>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="u4EC0_u4E48_u662FBFC_uFF1F"><a href="#u4EC0_u4E48_u662FBFC_uFF1F" class="headerlink" title="什么是BFC？"></a>什么是BFC？</h1><p>在解释 <code>BF]]>
+    <![CDATA[<h1 id="u4EC0_u4E48_u662FBFC_uFF1F"><a href="#u4EC0_u4E48_u662FBFC_uFF1F" class="headerlink" title="什么是BFC？"></a>什么是BFC？</h1><p>在解释 <code>BFC</code> 是什么之前，需要先介绍 <code>Box</code>、<code>Formatting Context</code>的概念。</p>
+<ul>
+<li><h3 id="Box_uFF1A_CSS__u5E03_u5C40_u7684_u57FA_u672C_u5355_u4F4D"><a href="#Box_uFF1A_CSS__u5E03_u5C40_u7684_u57FA_u672C_u5355_u4F4D" class="headerlink" title="Box： CSS 布局的基本单位"></a>Box： <code>CSS</code> 布局的基本单位</h3><p><code>Box</code>是<code>CSS</code>布局的对象和基本单位， 直观点来说，就是一个页面是由很多个<code>Box</code>组成的。元素的类型和<code>display</code>属性，决定了这个<code>Box</code>的类型。 不同类型的 <code>Box</code>会参与不同的<code>Formatting Context</code>（一个决定如何渲染文档的容器），因此<code>Box</code>内的元素会以不同的方式渲染。让我们看看有哪些盒子：</p>]]>
+    
     </summary>
     
       <category term="css2，BFC" scheme="http://yoursite.com/tags/css2%EF%BC%8CBFC/"/>
     
-      <category term="blog" scheme="http://yoursite.com/categories/blog/"/>
+      <category term="CSS2" scheme="http://yoursite.com/categories/CSS2/"/>
     
   </entry>
   
