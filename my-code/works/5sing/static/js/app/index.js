@@ -1,6 +1,6 @@
 define(function(require) {
 	var oSlider, oRecoTab, oAudiTab, oAlbumTab, oSpreadTab, oOriginalTab, oCoverTab, oHot,
-		path = '/5sing/web/img/',
+		path = '../web/img/',
 		siderPath = path + 'pic-scroll/';
 	var onAnimate = function(e) {
 		var $em = $(this).find('em'),
