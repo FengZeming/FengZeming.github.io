@@ -62,7 +62,8 @@
 			var that = this,
 				dom = that.dom,
 				ope = that.options;
-			var html = '<li class="m-flmenu-code">'+
+			var html ='<li><a class="dib tc gf" style="line-height:59px;"  href="http://fengzeming.github.io/">博客</a></li>'+ 
+				'<li class="m-flmenu-code">'+
 				'<a class="bgi-flmenu btn i-fmcode" href="javascript:;">5sing二维码</a>' +
 				'<span class=" abs dn">' +
 				' <em class="db"> <i class="bgi-flmenu lh20 btn i-down">二维码</i> </em>' +
